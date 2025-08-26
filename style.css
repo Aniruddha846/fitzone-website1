@@ -139,3 +139,31 @@ footer {
   color: white;
   margin-top: 50px;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  nav a {
+    margin: 0 10px;
+  }
+  .hero {
+    height: 70vh;
+    padding: 10px;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .features {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .feature-card {
+    width: 100%;
+  }
+}
